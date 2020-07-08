@@ -2,28 +2,29 @@
 <html>
 <head>
     <script src = "script.js" defer></script>
+    <link href = "styles.css" rel = "stylesheet">
 </head>
 <body>
 <h1>Jeffrey Chow</h1>
     <ul>
-        <li data-tab target = "#Home">Home</li>
-        <li data-tab target = "#Projects">Projects</li>
-        <li data-tab target = "#LinkedIN">LinkedIN</li>
+        <li data-tab-target = "#Home">Home</li>
+        <li data-tab-target = "#Projects">Projects</li>
+        <li data-tab-target = "#LinkedIN">LinkedIN</li>
 
     </ul>
 
     <div class = "tab-content">
-        <div id = "Home">
+        <div id = "Home" data-tab-content class = "active">
             <h1>Home</h1>
             <p>Home page</p>
         </div>
 
-        <div id = "Projects">
+        <div id = "Projects" data-tab-content>
             <h1>Projects</h1>
             <p>Project Page</p>
         </div>
 
-        <div id = "LinkedIN">
+        <div id = "LinkedIN" data-tab-content>
             <h1>LinkedIN</h1>
             <p>LinkedIN</p>
         </div>
